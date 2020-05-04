@@ -1,4 +1,4 @@
-console.log('This is a client side Java Script file')
+
 
 
 
