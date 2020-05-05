@@ -27,7 +27,8 @@
             messageOne.textContent = 'You server did not provide any data: ' + data.error
         } else {
             messageOne.textContent = 'Location is: ' + data.location
-            messageTwo.textContent = 'Here is your forecast: ' + data.forecast
+            messageTwo.textContent = 'Here is your forecast: The weather is ' + data.forecast + '. The temperature is: ' + data.temperature + '. It feels like: ' + data.feelslike + ', and the humidity is: ' +
+data.humidity
         }
     })
     })
