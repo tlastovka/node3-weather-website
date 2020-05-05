@@ -15,7 +15,7 @@
     e.preventDefault()
 
     const location = search.value  //Getting the content of the "addressForm" input
-    const locationURL = "http://localhost:3000/weather?address=" + location
+    const locationURL = "/weather?address=" + location
 
     messageOne.textContent = messageOne.textContent = "Loading..."
     messageTwo.textContent = ""
